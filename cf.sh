@@ -1,10 +1,16 @@
+#FOR CODEFORCES CONTESTS ONLY
+
 #compiles and tests your files against sample test cases
+
 #set a global environment variable 'CURR' to the contest number
 # .../$ CURR=124
 # .../$ export CURR
+
 #execute Start.py to create the contest folder and test files
+
 #first argument corresponds to problem (A, B..etc)
 #second argument corresponds to compilation option...see below for details
+# .../$ ./cf.sh A 1
 
 a=$2
 file=$CURR/$1/$1
