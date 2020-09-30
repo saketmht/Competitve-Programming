@@ -7,7 +7,7 @@ import os
 
 
 #Get Contest number from stdin
-contest_number = input("Enter contest number : ")
+#contest_number = input("Enter contest number : ")
 
 #Get Contest number from environment variable 'CURR'
 contest_number = os.environ["CURR"]
