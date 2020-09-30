@@ -6,8 +6,12 @@ from bs4 import BeautifulSoup as soup
 import os
 
 
-#Get Contest number
+#Get Contest number from stdin
 contest_number = input("Enter contest number : ")
+
+#Get Contest number from environment variable 'CURR'
+contest_number = os.environ["CURR"]
+
 my_url = 'https://codeforces.com/contest/' + str(contest_number)
 
 #send request and establish connection
