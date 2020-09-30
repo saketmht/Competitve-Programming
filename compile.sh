@@ -1,3 +1,8 @@
+#compile file (C++)
+#first argument corresponds to file name (without extension) 
+#second argument corresponds to flag options, see below for more details
+
+
 a=$2
 if [ $a == 0 ]
 then 
