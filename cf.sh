@@ -1,9 +1,8 @@
-#for CODEFORCES contests only
 #compiles and tests your files against sample test cases
-#place the file in the directory with the contest folder
 #set a global environment variable 'CURR' to the contest number
 # .../$ CURR=124
 # .../$ export CURR
+#execute Start.py to create the contest folder and test files
 #first argument corresponds to problem (A, B..etc)
 #second argument corresponds to compilation option...see below for details
 
